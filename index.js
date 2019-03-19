@@ -19,10 +19,12 @@ function funkyFunction() {
 };
 }
 
-var theFunk = function funkyFunction() { 
- return function funkyFunction() {
-    return "FUNKY!";
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
   }
-};
+}
 
-console.log(theFunk())
+// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
+// NOTE: you only need to modify the code below this line.
+var theFunk = funkyFunction
