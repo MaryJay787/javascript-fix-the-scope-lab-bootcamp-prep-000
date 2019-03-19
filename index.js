@@ -25,4 +25,4 @@ var theFunk = function funkyFunction() {
   }
 };
 
-console.log(theFunk()())
+console.log(theFunk())
